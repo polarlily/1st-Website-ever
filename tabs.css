@@ -1,0 +1,72 @@
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    border: solid 1px black;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#life {
+    top: 200px;
+    background-color: #F08080;
+
+}
+
+#art {
+    top: 325px;
+    background-color: #8080F0;
+}
+
+#beauty {
+    top: 450px;
+    background-color: #80F080;
+}
+
+
+
+#mySidenav2 a{
+  position: absolute;
+  right: -60px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  border: solid 1px black;
+  overflow: hidden;
+}
+
+#mySidenav2 a:hover {
+  right:0;
+  overflow: hidden;
+}
+
+#coding {
+    top: 200px;
+    background-color: #F08080;
+    overflow: hidden;
+}
+
+#writing {
+    top: 325px;
+    background-color: #8080F0;
+    overflow: hidden;
+}
+
+#fav {
+    top: 450px;
+    background-color: #80F080;
+    overflow: hidden;
+}

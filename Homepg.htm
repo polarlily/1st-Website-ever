@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Welcome to my Website! </title>
+  <link rel="stylesheet" type="text/css" href="Homepg.css">
+  <link rel="stylesheet" type="text/css" href="slideshow.css">
+  <link rel="stylesheet" type="text/css" href="tabs.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <p id="header"> Tobennaobi.com </p>
+
+
+  <div class="slideshow-container" >
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="writing.jpeg" style="width:75%; border: solid 1px black;">
+    <div class="text"><ins><a href="list_of_stuff">Browse Blogs</a></ins></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="Party.jpeg" style="width:75%; border: solid 1px black;">
+    <div class="text"><ins><a href="list_of_stuff">Browse Links</a></ins></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Photo.jpeg" style="width:75%; border: solid 1px black;">
+    <div class="text"><ins><a href="photo_gallery">Browse Photos</a></ins></div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+  <script src="slideshow.js"></script>
+
+  <div id="mySidenav" class="sidenav">
+  <a href="life_blogs" id="life">Life Blogs</a>
+  <a href="art_blogs" id="art">Art Blogs</a>
+  <a href="beauty_care_blogs" id="beauty">Beauty Care Blogs</a>
+</div>
+
+<div id="mySidenav2" class="sidenav">
+  <a href="coding_blogs" id="coding">Coding Blogs</a>
+  <a href="fav_web_links" id="writing">Fav Web Links</a>
+  <a href="writing_blogs" id="fav">Writing Blogs</a>
+</div>
+
+<div id="recentpic">
+  <img src="shark.png"; id="shark">
+  <p> Designed a new game today. -- It's called "Fish Bones", and it is just like Flappy Bird tm, but ocean-themed! </p>
+</div>

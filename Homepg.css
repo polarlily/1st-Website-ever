@@ -1,0 +1,47 @@
+html{
+  background: url(Website.PNG) no-repeat center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: verdana;
+  overflow-x:hidden;
+}
+
+#header {
+  top: 0;
+  height: 25px;
+  display: block;
+  text-align: right;
+  background: #80F080;
+  border-bottom: 6px solid #F08080;
+}
+
+#menubar{
+  display: inline;
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+ul1{
+  display: inline;
+  font-size: 60px;
+  font-family: Arial Narrow;
+  list-style-type: none;
+}
+
+#recentpic {
+  display:inline;
+  text-align: center;
+}
+
+#shark{
+  border: solid 1px black;
+  display: inline-block;
+  float: left;
+}
