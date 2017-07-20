@@ -1,0 +1,44 @@
+html{
+  background: url(Website.PNG) no-repeat center fixed;
+  background-size: cover;
+}
+
+body{
+  font-family: verdana;
+}
+
+#header {
+  top: 0;
+  height: 25px;
+  display: block;
+  text-align: right;
+  background: #80F080;
+  border-bottom: 6px solid #F08080;
+}
+
+#title {
+    display: inline;
+    font-size: 60px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: none;
+
+}
+
+#titlestuff{
+  color: #66C166;
+  text-shadow: 2px 2px 5px #F08080;
+
+  -webkit-transition: color 3s linear; /* For Safari 3.1 to 6.0 */
+  transition: color 3s;
+
+  -webkit-transition: font-size 3s; /* For Safari 3.1 to 6.0 */
+  transition: font-size 3s;
+}
+
+#titlestuff:hover {
+  font-size: 80px;
+  text-align: center;
+  color: #80F080;
+}
