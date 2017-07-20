@@ -10,6 +10,7 @@
     color: white;
     border-radius: 0 5px 5px 0;
     border: solid 1px black;
+    position: fixed;
 }
 
 #mySidenav a:hover {
@@ -46,6 +47,7 @@
   border-radius: 5px 0 0 5px;
   border: solid 1px black;
   overflow: hidden;
+  position: fixed;
 }
 
 #mySidenav2 a:hover {
